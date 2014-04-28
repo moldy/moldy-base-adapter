@@ -1,0 +1,39 @@
+{
+  "name": "moldy-base-adapter",
+  "version": "0.0.1",
+  "description": "",
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "mocha test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/moldy/moldy-base-adapter.git"
+  },
+  "author": "dervalp",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/moldy/moldy-base-adapter/issues"
+  },
+  "devDependencies": {
+    "mocha": "^1.18.2",
+    "should": "^3.1.4",
+    "express": "^3.5.0",
+    "browserify": "^3.33.0",
+    "uglify-js": "^2.4.13",
+    "gulp": "^3.6.1",
+    "gulp-shell": "^0.2.4",
+    "gulp-uglify": "^0.2.1",
+    "gulp-browserify": "^0.5.0",
+    "gulp-rename": "^1.2.0",
+    "gulp-livereload": "^1.2.0",
+    "underscore": "^1.6.0",
+    "forever": "^0.10.11",
+    "gulp-ejs": "^0.2.1",
+    "gulp-markdown": "^0.1.2",
+    "moldy-ajax-adapter": "0.0.5",
+    "jshint-stylish": "^0.1.5",
+    "gulp-jshint": "^1.5.3"
+  },
+  "homepage": "https://github.com/moldy/moldy-base-adapter"
+}
