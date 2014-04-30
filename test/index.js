@@ -15,6 +15,7 @@ describe( 'Given a moldy adapter,', function () {
 
 	describe( 'and an instantation', function () {
 		var adapter = moldyAdapter.extend( {
+			create: noop,
 			find: noop,
 			findOne: noop,
 			save: noop,
