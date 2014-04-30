@@ -31,7 +31,6 @@
     "forever": "^0.10.11",
     "gulp-ejs": "^0.2.1",
     "gulp-markdown": "^0.1.2",
-    "moldy-ajax-adapter": "0.0.5",
     "jshint-stylish": "^0.1.5",
     "gulp-jshint": "^1.5.3"
   },
