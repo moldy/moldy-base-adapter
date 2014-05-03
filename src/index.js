@@ -13,7 +13,7 @@ baseAdapter.prototype.setup = function () {
 module.exports = {
 	extend: function ( adapter ) {
 
-		if ( !adapter.create || !adapter.find || !adapter.findOne || !adapter.save || !adapter.destroy ) {
+		if ( !adapter.name || !adapter.create || !adapter.find || !adapter.findOne || !adapter.save || !adapter.destroy ) {
 			throw new Error( 'Invalid Adapter' );
 		}
 
