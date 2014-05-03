@@ -6,10 +6,6 @@ baseAdapter.prototype.set = function ( key, value ) {
 	this.config[ key ] = value;
 };
 
-baseAdapter.prototype.setup = function () {
-	return this;
-};
-
 module.exports = {
 	extend: function ( adapter ) {
 
